@@ -153,7 +153,7 @@ body {
 }
 
 .hero {
-    max-width: 160rem;
+    max-width: 180rem;
     min-height: 60rem;
     margin: 0 auto;
     padding: 0 3.2rem;
@@ -259,11 +259,17 @@ body {
 }
 
 .drinks-container {
+    padding: 0 3.2rem;
+}
+
+.drinks-grid {
+    max-width: 180rem;
     display: grid;
-    grid-template-columns: repeat(auto-fit, 39rem);
+    grid-template-columns: repeat(4, 1fr);
     justify-content: center;
+    align-content: center;
     gap: 4.8rem;
-    margin-top: 6.4rem;
+    margin: 6.4rem auto;
 }
 
 .drinks-title {
@@ -416,7 +422,7 @@ button .icon {
 }
 
 .girls-container{
-    padding-top: 2rem;
+    padding: 2rem 3.8rem 0 3.8rem;
     text-align:center;
 
     display: flex;
@@ -441,7 +447,7 @@ button .icon {
 
 
 .carousel{
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
 }
 .slick-slide{
@@ -459,21 +465,21 @@ button .icon {
 /********************************** 
  LOCATION SECTION
 ***********************************/
-/********************************** 
- LOCATION SECTION
-***********************************/
 
 .location-section {
     padding: 9.6rem 0;
     color: #f8f9fa;
     font-size: 1.6rem;
-    flex-wrap: wrap;
-
+    
     background-image: url("https://kosportsbar.com/wp-content/uploads/2019/12/bottom-paralax2-2.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.location-container {
+    padding: 0 3.2rem;
 
     display: flex;
     justify-content: center;
@@ -481,24 +487,24 @@ button .icon {
     gap: 12.8rem;
 }
 
-.location-section > div {
+.location-container > div {
     background-color: rgba(0, 0, 0, 0.6);
     padding: 3.6rem;
 }
 
-.location-section h2 {
+.location-container h2 {
     font-size: 4.4rem;
     color: #e9ecef;
     margin-bottom: 3.6rem;
 }
 
-.location-section h3 {
+.location-container h3 {
     font-size: 2.4rem;
     color: #dee2e6;
     margin: 3.6rem 0;
 }
 
-.location-section ul {
+.location-container ul {
     list-style: none;
     display: flex;
     flex-direction: column;
