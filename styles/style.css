@@ -430,17 +430,18 @@ button .icon {
     justify-content: center;
     gap: 4.8rem;
 }
-.section-girls h2{
+.girls-container h2{
   color:#fff;
   font-size: 5.2rem;
 }
 
-.section-girls h3{
+.girls-container h3{
     color:#e9ecef;
     font-size: 4.4rem;
+    margin-top: 3.8rem;
   }
 
-.section-girls h4{
+.girls-container h4{
     color:#f03e3e;
     font-size: 3rem;
 }
