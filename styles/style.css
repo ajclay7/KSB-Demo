@@ -448,8 +448,9 @@ button .icon {
 
 
 .carousel{
-  width: 100%;
-  margin: 0 auto;
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
 }
 .slick-slide{
   margin: 1rem;
