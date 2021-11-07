@@ -10,7 +10,7 @@ $('.carousel').slick({
   arrows: false,
   responsive: [
     {
-      breakpoint: 768,
+      breakpoint: 975,
       settings: {
         arrows: false,
         centerMode: true,
@@ -19,7 +19,7 @@ $('.carousel').slick({
       }
     },
     {
-      breakpoint: 480,
+      breakpoint: 600,
       settings: {
         arrows: false,
         centerMode: true,
