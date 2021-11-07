@@ -4,7 +4,7 @@ $('.carousel').slick({
   slidesToShow: 3,
   slidesToScroll: 1,
   autoplay: true,
-  mobileFirst:true,
+  // mobileFirst:true,
   autoplaySpeed: 2500,
   dots:false,
   arrows: false,
@@ -15,7 +15,7 @@ $('.carousel').slick({
         arrows: false,
         centerMode: true,
         centerPadding: '4rem',
-        slidesToShow: 3
+        slidesToShow: 1
       }
     },
     {

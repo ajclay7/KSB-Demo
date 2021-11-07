@@ -2,6 +2,10 @@
 /* BELOW 1200px (Smaller desktops)*/
 /*************************/
 @media (max-width: 75em) {
+    html{
+        font-size: 56.25%;
+    }
+
     .drinks-grid {
         grid-template-columns: repeat(3, 1fr);
         gap: 3.2rem;
@@ -13,7 +17,6 @@
     }
 
     .drinks-cta h3 {
-        font-size: 2.4rem;
         line-height: 2.8rem;
     }
 
@@ -23,7 +26,6 @@
     }
 
     .video-cta h3 {
-        font-size: 2.4rem;
     }
 
     .location-container {
@@ -31,11 +33,9 @@
     }
 
     .location-container h2 {
-        font-size: 3.6rem;
     }
 
     .ksb {
-        font-size: 2.4rem;
     }
 }
 
