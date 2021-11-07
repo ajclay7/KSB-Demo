@@ -287,6 +287,8 @@ body {
     border-top: 4px solid #c92a2a;
     border-bottom: 4px solid #c92a2a;
     font-size: 1.6rem;
+    width: 100%;
+    transition: all 0.3s;
 }
 
 .drinks h3 {
@@ -471,9 +473,15 @@ button .icon {
 .location-section {
     padding: 9.6rem 0;
     color: #f8f9fa;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     
-    background-image: url("https://kosportsbar.com/wp-content/uploads/2019/12/bottom-paralax2-2.jpg");
+    background-image: 
+    linear-gradient(
+        to right bottom, 
+        rgba(0, 0, 0, 0.35), 
+        rgba(0, 0, 0, 0.35)
+        ),
+    url("https://kosportsbar.com/wp-content/uploads/2019/12/bottom-paralax2-2.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -482,7 +490,7 @@ button .icon {
 
 .location-container {
     padding: 0 3.2rem;
-
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;

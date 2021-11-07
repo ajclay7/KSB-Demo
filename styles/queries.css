@@ -1,0 +1,83 @@
+/*************************/
+/* BELOW 1200px (Smaller desktops)*/
+/*************************/
+@media (max-width: 75em) {
+    .drinks-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 3.2rem;
+    }
+
+    .drinks-cta {
+        gap: 3.2rem;
+        flex-direction: column;
+    }
+
+    .drinks-cta h3 {
+        font-size: 2.4rem;
+        line-height: 2.8rem;
+    }
+
+    .video-cta {
+        flex-direction: column;
+        gap: 3.2rem
+    }
+
+    .video-cta h3 {
+        font-size: 2.4rem;
+    }
+
+    .location-container {
+        gap: 4.8rem;
+    }
+
+    .location-container h2 {
+        font-size: 3.6rem;
+    }
+
+    .ksb {
+        font-size: 2.4rem;
+    }
+}
+
+
+/*************************/
+/* BELOW 975px (Landscape Tablets)*/
+/*************************/
+@media (max-width: 60em) {
+
+    .section-hero {
+        padding: 9.6rem 0;
+    }
+
+    .hero {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        padding: 0 1.6rem;
+    }
+
+    .hero-promo {
+        min-height: 30rem;
+    }
+
+    .hero-promo--3 {
+        grid-column: 1;
+        grid-row: 1 / -1;
+        min-height: 50rem;
+    }
+
+    .drinks-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .location-container {
+        flex-direction: column;
+    }
+}
+/*************************/
+/* BELOW 600px (Mobile)*/
+/*************************/
+@media (max-width: 38em) {
+    .drinks-grid {
+        grid-template-columns: 1fr;
+    }
+}
