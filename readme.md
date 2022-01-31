@@ -17,9 +17,9 @@ This is a modern mobile responsive landing page built from scratch using HTML an
 
 After:
 
-![Preview of the site](img/screenshot.png)
+![Preview of the site](Screenshot.png)
 
 Before:
 
-![Preview of the site](img/before_screenshot.png)
+![Preview of the site before](before_screenshot.png)
 
